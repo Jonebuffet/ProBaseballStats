@@ -1,0 +1,10 @@
+2020-03-13 23:52:09 INFO  Operation directory: /Users/johnwalker/projects/baseball/wbbaseballgraphstats/data/Scripts/logs/LOAD_20200313-235209-741099
+2020-03-13 23:52:13 INFO  Operation LOAD_20200313-235209-741099 completed successfully in 2 seconds.
+2020-03-13 23:52:15 INFO  Final stats:
+2020-03-13 23:52:15 INFO  Records: total: 19,370, successful: 19,370, failed: 0
+2020-03-13 23:52:15 INFO  Batches: total: 19,370, size: 1.00 mean, 1 min, 1 max
+2020-03-13 23:52:15 INFO  Memory usage: used: 108 MB, free: 176 MB, allocated: 285 MB, available: 3,641 MB, total gc count: 8, total gc time: 84 ms
+2020-03-13 23:52:15 INFO  Writes: total: 19,370, successful: 19,370, failed: 0, in-flight: 0
+2020-03-13 23:52:15 INFO  Throughput: 4,180 writes/second
+2020-03-13 23:52:15 INFO  Latencies: mean 20.40, 75p 27.26, 99p 87.03, 999p 113.77 milliseconds
+2020-03-13 23:52:15 INFO  Last processed positions can be found in positions.txt

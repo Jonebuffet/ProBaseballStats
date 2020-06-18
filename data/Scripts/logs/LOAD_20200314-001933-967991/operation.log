@@ -1,0 +1,10 @@
+2020-03-14 00:19:34 INFO  Operation directory: /Users/johnwalker/projects/baseball/wbbaseballgraphstats/data/Scripts/logs/LOAD_20200314-001933-967991
+2020-03-14 00:19:35 ERROR Operation LOAD_20200314-001933-967991 failed: Schema mapping entry player_yearly_hitting_vtx_playerid doesn't match any column found in table player_info_vtx__batted_post_season__player_post_season_hitting_vtx.
+com.datastax.dsbulk.commons.config.BulkConfigurationException: Schema mapping entry player_yearly_hitting_vtx_playerid doesn't match any column found in table player_info_vtx__batted_post_season__player_post_season_hitting_vtx
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.lambda$validateAllFieldsPresent$7(SchemaSettings.java:720)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.validateAllFieldsPresent(SchemaSettings.java:713) [5 skipped]
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.createFieldsToVariablesMap(SchemaSettings.java:639)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.prepareStatementAndCreateMapping(SchemaSettings.java:468)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.createRecordMapper(SchemaSettings.java:348)
+2020-03-14 00:19:37 INFO  Final stats:
+2020-03-14 00:19:37 INFO  Last processed positions can be found in positions.txt

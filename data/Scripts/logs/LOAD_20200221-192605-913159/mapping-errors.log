@@ -1,0 +1,1680 @@
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2701
+Source: bakerbo01,1901,1,CLE,AL,0,1,1,1,1,0,0,24,23,5,0,6,0,0.49,5.63,,2,1,0,51,0,13,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.49 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2817
+Source: powelja01,1901,1,SLN,NL,19,19,45,37,33,2,3,1015,351,133,14,50,133,0.26,3.54,,9,12,0,1470,8,168,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2818
+Source: prentge01,1901,1,BOS,AL,1,0,2,1,1,0,0,30,7,2,0,6,0,0.19,1.8,,0,0,0,0,1,4,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.19 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2702
+Source: bakerbo01,1901,2,PHA,AL,0,1,1,1,0,0,0,18,6,7,0,6,1,0.25,10.5,,0,0,0,33,0,11,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.25 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2819
+Source: reidybi01,1901,1,MLA,AL,16,20,37,33,28,2,0,904,364,141,14,62,50,0.29,4.21,,6,9,0,0,4,183,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2703
+Source: bernhbi01,1901,1,PHA,AL,17,10,31,27,26,1,0,771,328,129,6,50,58,0.3,4.52,,6,2,0,0,4,169,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2820
+Source: rusieam01,1901,1,CIN,NL,0,1,3,2,2,0,0,66,43,21,1,3,6,0.4,8.59,,2,0,0,107,0,25,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.4 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2704
+Source: bevilbe01,1901,1,BOS,AL,0,2,2,2,1,0,0,27,8,4,0,9,1,0.23,4,,0,1,0,0,0,7,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2821
+Source: schmicr01,1901,1,BLA,AL,0,2,4,3,1,0,0,68,25,5,0,16,2,0.27,1.99,,2,0,0,0,1,20,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2705
+Source: brackja01,1901,1,CLE,AL,4,8,12,12,12,0,0,300,137,69,4,31,18,0.32,6.21,,2,10,0,470,0,94,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.32 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2822
+Source: scottdi01,1901,1,CIN,NL,0,2,3,2,2,0,0,63,26,12,2,9,7,0.3,5.14,,0,3,0,0,1,15,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2706
+Source: bradlbi01,1901,1,CLE,AL,0,0,1,0,0,0,0,3,4,0,0,0,0,0.58,0,,0,0,0,0,0,3,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.58 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2823
+Source: scotted01,1901,1,CLE,AL,6,6,17,16,11,0,1,374,149,61,2,38,23,0.29,4.4,,1,7,0,0,1,82,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2707
+Source: braggdi01,1901,1,CLE,AL,1,2,4,3,2,0,0,96,44,17,1,15,1,0.32,4.78,,2,1,0,0,0,28,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.32 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2824
+Source: sieveed01,1901,1,DET,AL,18,15,38,33,30,2,0,866,334,104,9,65,85,0.28,3.24,,3,8,0,0,5,166,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2708
+Source: breitte01,1901,1,SLN,NL,0,3,3,3,1,0,0,45,24,11,1,14,3,0.35,6.6,,1,0,0,0,0,26,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.35 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2945
+Source: mageebi01,1902,1,NY1,NL,0,0,2,1,0,0,0,15,5,2,0,1,2,0.26,3.6,,0,0,0,21,1,2,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2825
+Source: skopejo01,1901,1,CHA,AL,6,3,9,9,6,0,0,205,62,24,1,45,24,0.23,3.16,,8,8,0,0,0,39,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2709
+Source: bresnro01,1901,1,BLA,AL,0,1,2,1,0,0,0,18,10,4,0,4,3,0.36,6,,0,0,0,0,1,8,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.36 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2826
+Source: smithhe01,1901,1,NY1,NL,0,1,2,1,1,0,0,40,24,12,0,5,5,0.38,8.1,,0,2,0,0,1,13,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.38 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2710
+Source: burnsfa01,1901,1,SLN,NL,0,0,1,0,0,0,0,3,2,1,0,1,0,0.41,9,,0,1,0,0,1,1,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.41 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2711
+Source: callani01,1901,1,CHA,AL,15,8,27,22,20,1,0,646,195,58,4,50,70,0.23,2.42,,7,9,0,0,5,94,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2827
+Source: sparktu01,1901,1,MLA,AL,7,16,29,26,18,0,0,630,228,82,5,93,62,0.27,3.51,,6,14,0,0,3,157,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2946
+Source: mageebi01,1902,2,PHI,NL,2,4,8,6,6,0,0,161,61,22,1,18,15,0.28,3.69,,1,3,0,226,1,28,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2712
+Source: carribi01,1901,1,WS1,AL,14,22,42,37,34,0,0,972,367,135,12,93,70,0.28,3.75,,6,20,0,1448,5,198,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2828
+Source: stimmar01,1901,1,CIN,NL,4,14,20,18,14,1,0,460,170,70,10,44,55,0.27,4.11,,4,12,0,0,2,96,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2947
+Source: malarjo01,1902,1,BSN,NL,8,10,21,19,17,1,1,511,158,49,0,58,39,0.24,2.59,,4,0,0,0,2,82,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2713
+Source: carseki01,1901,1,BRO,NL,1,0,2,0,0,0,0,21,9,8,1,3,4,0.31,10.29,,0,1,0,0,2,9,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.31 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2829
+Source: sudhowi01,1901,1,SLN,NL,17,11,38,26,25,1,2,829,281,108,4,92,78,0.26,3.52,,7,18,0,0,11,142,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2948
+Source: mathech01,1902,1,NY1,NL,14,17,34,32,29,8,0,830,241,65,3,73,159,0.23,2.11,,16,10,1,1137,2,114,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2714
+Source: casech01,1901,1,CIN,NL,1,2,3,3,3,0,0,81,34,14,0,6,5,0.3,4.67,,0,0,0,120,0,21,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2830
+Source: sutthja01,1901,1,CIN,NL,1,6,10,4,4,0,0,211,82,43,2,39,12,0.28,5.5,,2,2,0,0,6,55,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2949
+Source: mccange01,1902,1,BRO,NL,1,2,3,3,3,0,0,90,32,8,0,12,9,0.27,2.4,,1,0,0,130,0,18,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2715
+Source: chesbja01,1901,1,PIT,NL,21,10,36,28,26,6,1,863,261,76,4,52,129,0.24,2.38,,5,14,0,1187,8,104,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2831
+Source: swormle01,1901,1,CIN,NL,2,1,3,3,3,0,0,78,19,5,2,5,13,0.2,1.73,,0,2,0,102,0,8,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.2 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2716
+Source: cristbi01,1901,1,CLE,AL,1,5,6,6,5,1,0,145,54,26,1,30,12,0.27,4.84,,3,4,0,0,0,42,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2950
+Source: mccarar01,1902,1,DET,AL,2,7,10,8,8,0,0,216,90,49,2,31,10,0.3,6.13,,4,4,0,0,2,57,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2832
+Source: tanneje01,1901,1,PIT,NL,18,10,32,30,25,4,1,757,240,61,1,36,118,0.24,2.18,,2,10,0,0,2,94,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2717
+Source: cronija01,1901,1,DET,AL,13,15,30,28,21,1,0,659,261,95,6,42,62,0.29,3.89,,5,11,0,0,2,145,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2951
+Source: mcfadba01,1902,1,PHI,NL,0,1,1,1,1,0,0,27,14,8,0,7,3,0.35,8,,0,0,0,49,0,13,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.35 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2833
+Source: taylodu01,1901,1,NY1,NL,18,27,45,43,37,4,0,1060,377,125,8,112,136,0.27,3.18,,4,16,1,1578,2,193,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2718
+Source: cunnibe01,1901,1,CHN,NL,0,1,1,1,1,0,0,27,11,5,0,3,2,0.29,5,,0,0,1,40,0,6,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2952
+Source: mcfarch02,1902,1,SLN,NL,0,1,2,1,1,0,0,33,11,7,1,3,3,0.26,5.73,,0,0,0,45,1,7,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2834
+Source: tayloja02,1901,1,CHN,NL,13,19,33,31,30,0,0,827,341,103,5,44,68,0.3,3.36,,3,8,1,0,2,165,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2719
+Source: cuppyni01,1901,1,BOS,AL,4,6,13,11,9,0,0,280,111,43,1,14,22,0.29,4.15,,1,2,0,0,2,58,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2953
+Source: mcginjo01,1902,1,BLA,AL,13,10,25,23,19,0,0,596,219,76,3,46,39,0.28,3.44,,1,8,0,860,2,102,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2835
+Source: townsha01,1901,1,PHI,NL,9,6,19,16,14,2,0,431,118,55,3,64,72,0.22,3.45,,7,7,0,0,2,73,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.22 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2720
+Source: deegadu01,1901,1,NY1,NL,0,1,2,1,1,0,0,51,27,12,0,6,8,0.35,6.35,,0,0,0,,1,17,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.35 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2954
+Source: mcginjo01,1902,2,NY1,NL,8,8,19,16,16,1,0,459,122,35,1,32,67,0.21,2.06,,0,9,1,625,3,52,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.21 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2836
+Source: vanhage01,1901,1,NY1,NL,0,0,1,0,0,0,0,18,12,2,0,6,2,0.41,3,,0,1,0,0,1,10,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.41 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2721
+Source: denzero01,1901,1,NY1,NL,2,6,11,9,3,1,0,185,69,23,2,5,22,0.28,3.36,,2,2,0,0,2,30,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2955
+Source: mclauwa01,1902,1,PIT,NL,3,0,3,3,3,0,0,78,27,8,0,9,13,0.26,2.77,,1,1,0,113,0,13,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3073
+Source: easonma01,1903,1,DET,AL,2,5,7,6,6,1,0,169,60,21,1,19,21,0.27,3.36,,0,4,0,255,1,33,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2837
+Source: vanzaik01,1901,1,NY1,NL,0,0,2,0,0,0,0,38,16,10,0,8,2,0.3,7.11,,0,1,0,0,2,15,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2722
+Source: dinnebi01,1901,1,BSN,NL,15,18,37,34,31,0,0,928,295,101,8,77,141,0.25,2.94,,10,6,1,1302,3,136,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.25 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2956
+Source: mcmacsa01,1902,1,CHA,AL,0,0,1,0,0,0,0,9,1,0,0,0,2,0.1,0,,0,0,0,0,1,1,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.1 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3074
+Source: evansro01,1903,1,BRO,NL,5,9,15,12,9,0,0,330,121,40,1,41,42,0.29,3.27,,3,7,0,455,3,75,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2838
+Source: volzja01,1901,1,BOS,AL,1,0,1,1,1,0,0,21,6,7,2,9,5,0.22,9,,0,0,0,39,0,9,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.22 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2723
+Source: dohened01,1901,1,NY1,NL,2,5,10,6,6,0,0,222,88,37,1,17,36,0.29,4.5,,5,6,0,0,4,53,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3201
+Source: bendech01,1904,1,PHA,AL,10,11,29,20,18,4,0,611,167,65,1,59,149,0.22,2.87,,5,4,0,834,8,90,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.22 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2957
+Source: mcmacsa01,1902,2,DET,AL,0,1,1,1,1,0,0,25,9,3,0,4,2,0.27,3.24,,0,1,0,37,0,5,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3075
+Source: evansro01,1903,2,SLA,AL,0,4,7,7,4,0,0,162,66,25,1,14,24,0.3,4.17,,1,3,0,241,0,30,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2839
+Source: wadderu01,1901,1,PIT,NL,0,2,2,2,0,0,0,23,10,8,0,9,4,0.31,9.39,,1,1,0,45,0,12,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.31 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2724
+Source: dohened01,1901,2,PIT,NL,6,2,11,10,6,1,0,230,68,17,1,22,28,0.23,2,,4,5,0,0,1,36,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3202
+Source: bernhbi01,1904,1,CLE,AL,23,13,38,37,35,4,0,962,323,76,3,55,137,0.26,2.13,,5,4,0,1343,1,107,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2958
+Source: mcmakjo01,1902,1,BRO,NL,2,2,4,4,4,0,0,96,34,11,0,11,6,0.27,3.09,,1,3,0,143,0,18,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3076
+Source: ewingbo01,1903,1,CIN,NL,14,13,29,28,27,1,1,740,254,76,3,64,104,0.26,2.77,,4,10,0,1034,1,127,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2725
+Source: donahre01,1901,1,PHI,NL,20,13,34,33,33,1,1,886,299,85,2,59,88,0.26,2.59,,3,9,0,1254,1,111,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2840
+Source: wadderu01,1901,2,CHN,NL,14,14,29,28,26,0,0,731,239,76,5,66,168,0.25,2.81,,10,9,0,1059,1,123,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.25 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3203
+Source: bowerfr01,1904,1,NY1,NL,0,0,1,0,0,0,0,3,3,1,0,1,0,0.42,9,,0,0,0,8,1,4,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.42 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2959
+Source: menefjo01,1902,1,CHN,NL,12,10,22,21,20,4,0,592,201,53,1,26,60,0.26,2.42,,4,6,0,0,1,81,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3077
+Source: fairbji01,1903,1,PHA,AL,1,1,4,1,1,0,0,72,33,13,1,12,10,0.32,4.88,,3,0,0,113,3,14,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.32 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3204
+Source: brackjo01,1904,1,PHI,NL,0,1,7,1,0,0,0,102,37,21,4,16,11,0.29,5.56,,0,4,0,144,5,32,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2841
+Source: weyhigu01,1901,1,CLE,AL,0,0,2,1,0,0,0,34,20,10,0,5,0,0.37,7.94,,0,4,0,0,1,11,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.37 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3078
+Source: falkecy01,1903,1,PIT,NL,1,5,10,6,3,0,0,168,65,24,0,32,24,0.29,3.86,,0,2,0,254,4,43,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2726
+Source: donovbi01,1901,1,BRO,NL,25,15,45,38,36,2,3,1053,324,108,1,152,226,0.24,2.77,,10,8,0,1529,7,151,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3205
+Source: briggbu01,1904,1,CHN,NL,19,11,34,30,28,3,3,831,252,63,3,77,112,0.24,2.05,,3,8,0,1109,4,101,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2842
+Source: weyhigu01,1901,2,CIN,NL,0,1,1,1,1,0,0,27,11,3,0,2,3,0.29,3,,0,2,0,41,0,9,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.29 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3079
+Source: flahepa02,1903,1,CHA,AL,11,25,40,34,29,2,1,881,338,122,9,50,65,0.28,3.74,,4,14,0,1270,5,173,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2727
+Source: donovto01,1901,1,CLE,AL,0,0,1,0,0,0,0,21,16,4,0,3,0,0.44,5.14,,0,2,0,0,1,11,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.44 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3206
+Source: brownmo01,1904,1,CHN,NL,15,10,26,23,21,4,1,637,155,44,1,50,81,0.19,1.86,,5,6,0,848,3,74,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.19 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3080
+Source: frasech01,1903,1,PHI,NL,12,17,31,29,26,1,1,750,260,125,8,97,104,0.26,4.5,,7,16,0,1085,2,160,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2843
+Source: whitedo01,1901,1,PHI,NL,14,13,31,27,22,0,0,710,241,84,2,56,132,0.26,3.19,,7,14,2,0,4,122,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2728
+Source: dowlipe01,1901,1,MLA,AL,1,4,10,4,3,0,1,149,71,31,1,14,25,0.33,5.62,,3,4,0,0,5,49,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.33 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3207
+Source: brucelo01,1904,1,PHA,AL,0,0,2,0,0,0,0,33,11,6,1,2,2,0.26,4.91,,0,0,0,46,2,7,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2729
+Source: dowlipe01,1901,2,CLE,AL,11,22,33,30,28,2,0,769,269,110,1,104,99,0.26,3.86,,6,17,1,0,2,160,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3208
+Source: caldwra01,1904,1,PHI,NL,2,2,6,5,5,0,0,123,40,19,1,15,30,0.24,4.17,,1,2,1,182,1,29,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2844
+Source: wickebo01,1901,1,SLN,NL,0,0,1,0,0,0,0,9,4,0,0,1,2,0.31,0,,0,0,0,0,1,3,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.31 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3209
+Source: camniho01,1904,1,PIT,NL,1,4,10,2,2,0,0,147,48,23,0,20,21,0.25,4.22,,2,3,0,208,8,37,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.25 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2730
+Source: dugglbi01,1901,1,PHI,NL,20,12,35,29,26,5,0,853,302,91,9,41,95,0.27,2.88,,1,10,0,,6,120,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2845
+Source: willivi01,1901,1,BSN,NL,20,17,38,35,33,6,0,916,262,80,6,78,133,0.23,2.36,,5,11,0,1257,3,111,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.23 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3210
+Source: carnepa01,1904,1,BSN,NL,0,4,4,2,1,0,0,79,40,17,1,12,5,0.36,5.81,,1,1,0,123,1,27,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.36 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2731
+Source: dunnja01,1901,1,PHI,NL,0,1,2,2,0,0,0,14,11,11,0,7,1,0.45,21.21,,1,2,0,0,0,16,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.45 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2846
+Source: wiltssn01,1901,1,PIT,NL,1,4,7,5,3,0,0,133,57,21,2,13,10,0.31,4.26,,0,5,1,0,2,28,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.31 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3211
+Source: casech01,1904,1,PIT,NL,10,5,18,17,14,3,0,423,129,46,0,31,49,0.24,2.94,,3,4,1,566,1,56,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2732
+Source: dunnja01,1901,2,BLA,AL,3,3,9,6,6,0,0,179,74,24,2,21,5,0.3,3.62,,0,1,0,0,3,45,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.3 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3081
+Source: garvine01,1903,1,BRO,NL,15,18,38,34,30,2,2,894,277,102,2,84,154,0.24,3.08,,9,13,1,1216,4,159,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2960
+Source: mercewi01,1902,1,DET,AL,15,18,35,33,28,4,1,845,282,95,5,80,40,0.26,3.04,,1,10,0,0,2,129,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.26 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2847
+Source: wiltssn01,1901,2,PHA,AL,13,5,19,19,18,2,0,498,185,66,1,35,40,0.27,3.58,,5,7,0,0,0,91,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.27 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3082
+Source: gibsono01,1903,1,BOS,AL,13,9,24,21,17,2,0,550,166,65,2,65,76,0.24,3.19,,5,7,0,755,3,95,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.24 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3212
+Source: chesbja01,1904,1,NYA,AL,41,12,55,51,48,6,0,1364,338,92,4,88,239,0.2,1.82,,9,7,0,1778,3,128,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.2 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2961
+Source: mertesa01,1902,1,CHA,AL,1,0,1,0,0,0,0,24,6,1,0,0,0,0.2,1.13,,0,0,0,0,1,2,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.2 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2734
+Source: easonma01,1901,1,CHN,NL,8,17,27,25,23,1,0,662,246,88,9,60,68,0.28,3.59,,1,13,0,0,2,136,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.28 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 3083
+Source: glendma01,1903,1,CLE,AL,1,2,3,3,3,0,0,83,20,3,0,7,9,0.2,0.98,,0,0,0,112,0,9,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.2 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+
+Resource: file:/Users/johnwalker/projects/baseball/WBBaseballStats/data/2017/baseballdatabank-master/core/Pitching.csv
+Position: 2848
+Source: wintege01,1901,1,BOS,AL,16,12,28,28,26,1,0,723,234,75,4,66,63,0.25,2.8,,3,4,0,1024,0,127,,,\u000a
+java.lang.ArithmeticException: Cannot convert 0.25 from BigDecimal to Integer
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:581)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.conversionFailed(CodecUtils.java:575)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:422)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.longValueExact(BigDecimal.java:3088)
+	at java.math.BigDecimal.intValueExact(BigDecimal.java:3147)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.toIntValueExact(CodecUtils.java:417)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.convertNumber(CodecUtils.java:295)
+	at com.datastax.dsbulk.engine.internal.codecs.util.CodecUtils.narrowNumber(CodecUtils.java:162)
+

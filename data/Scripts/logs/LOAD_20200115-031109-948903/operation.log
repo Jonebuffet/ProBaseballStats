@@ -1,0 +1,136 @@
+2020-01-15 03:11:10 INFO  Operation directory: /Users/johnwalker/projects/baseball/WBBaseballStats/data/Scripts/logs/LOAD_20200115-031109-948903
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.34.72:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.34.72:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating connection to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.TransportException: [/172.31.35.86:9042] Cannot connect
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:215)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /172.31.35.86:9042
+	at java.lang.Thread.run(Thread.java:748) [8 skipped]
+2020-01-15 03:11:16 WARN  Error creating pool to /172.31.34.72:9042
+com.datastax.driver.core.exceptions.ConnectionException: [/172.31.34.72:9042] Pool was closed during initialization
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:164)
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:149)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:213) [34 skipped]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+2020-01-15 03:11:16 WARN  Error creating pool to /172.31.35.86:9042
+com.datastax.driver.core.exceptions.ConnectionException: [/172.31.35.86:9042] Pool was closed during initialization
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:164)
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:149)
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:213) [34 skipped]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:185)
+	at java.lang.Thread.run(Thread.java:748) [15 skipped]
+2020-01-15 03:11:16 ERROR Operation LOAD_20200115-031109-948903 failed: Schema mapping entry "teamID" doesn't match any column found in table player_batting_by_year.
+com.datastax.dsbulk.commons.config.BulkConfigurationException: Schema mapping entry "teamID" doesn't match any column found in table player_batting_by_year
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.lambda$validateAllFieldsPresent$7(SchemaSettings.java:720)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.validateAllFieldsPresent(SchemaSettings.java:713) [5 skipped]
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.createFieldsToVariablesMap(SchemaSettings.java:639)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.prepareStatementAndCreateMapping(SchemaSettings.java:468)
+	at com.datastax.dsbulk.engine.internal.settings.SchemaSettings.createRecordMapper(SchemaSettings.java:348)
+2020-01-15 03:11:18 INFO  Final stats:
+2020-01-15 03:11:18 INFO  Last processed positions can be found in positions.txt

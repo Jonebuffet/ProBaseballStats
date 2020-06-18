@@ -1,0 +1,20 @@
+2020-03-14 00:26:00 INFO  Operation directory: /Users/johnwalker/projects/baseball/wbbaseballgraphstats/data/Scripts/logs/LOAD_20200314-002600-598234
+2020-03-14 00:26:01 ERROR Operation LOAD_20200314-002600-598234 aborted: Too many errors, the maximum allowed is 100.
+com.datastax.dsbulk.engine.internal.log.TooManyErrorsException: Too many errors, the maximum allowed is 100.
+	at com.datastax.dsbulk.engine.internal.log.LogManager.maybeTriggerOnError(LogManager.java:830)
+	at com.datastax.dsbulk.engine.internal.log.LogManager.lambda$newUnmappableStatementsHandler$7(LogManager.java:311)
+	at java.lang.Thread.run(Thread.java:748) [56 skipped]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at com.datastax.dsbulk.engine.LoadWorkflow.parallelFlux(LoadWorkflow.java:260) [2 skipped]
+		at com.datastax.dsbulk.engine.LoadWorkflow.execute(LoadWorkflow.java:191)
+		at com.datastax.dsbulk.engine.DataStaxBulkLoader$WorkflowThread.run(DataStaxBulkLoader.java:171)
+2020-03-14 00:26:04 INFO  Final stats:
+2020-03-14 00:26:04 INFO  Records: total: 114, successful: 7, failed: 107
+2020-03-14 00:26:04 INFO  Batches: total: 0, size: 0.00 mean, 0 min, 0 max
+2020-03-14 00:26:04 INFO  Memory usage: used: 67 MB, free: 108 MB, allocated: 176 MB, available: 3,641 MB, total gc count: 4, total gc time: 34 ms
+2020-03-14 00:26:04 INFO  Writes: total: 0, successful: 0, failed: 0, in-flight: 0
+2020-03-14 00:26:04 INFO  Throughput: 0 writes/second
+2020-03-14 00:26:04 INFO  Latencies: mean 0.00, 75p 0.00, 99p 0.00, 999p 0.00 milliseconds
+2020-03-14 00:26:04 INFO  Rejected records can be found in the following file(s): mapping.bad
+2020-03-14 00:26:04 INFO  Errors are detailed in the following file(s): mapping-errors.log
+2020-03-14 00:26:04 INFO  Last processed positions can be found in positions.txt

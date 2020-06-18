@@ -1,0 +1,15 @@
+2020-02-13 16:02:37 INFO  Operation directory: /Users/johnwalker/projects/baseball/WBBaseballStats/data/Scripts/logs/LOAD_20200213-160237-563356
+2020-02-13 16:02:38 ERROR Operation LOAD_20200213-160237-563356 failed: Failed to add contact point: 534.210.73.31.
+   Caused by: Unknown host: 534.210.73.31: nodename nor servname provided, or not known.
+java.lang.IllegalArgumentException: Failed to add contact point: 534.210.73.31
+	at com.datastax.driver.core.Cluster$Builder.addContactPoint(Cluster.java:924)
+	at com.datastax.driver.dse.DseCluster$Builder.addContactPoint(DseCluster.java:213)
+	at com.datastax.driver.dse.DseCluster$Builder.addContactPoint(DseCluster.java:86)
+	at com.datastax.driver.core.Cluster$Builder.addContactPoints(Cluster.java:944)
+	at com.datastax.driver.dse.DseCluster$Builder.addContactPoints(DseCluster.java:218)
+Caused by: java.net.UnknownHostException: 534.210.73.31: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
