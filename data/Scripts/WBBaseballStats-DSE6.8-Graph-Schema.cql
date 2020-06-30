@@ -1,4 +1,4 @@
-CREATE KEYSPACE IF NOT EXISTS ks_baseball WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
+CREATE KEYSPACE IF NOT EXISTS ks_baseball WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true AND graph_engine = 'Core';
 
 DROP TABLE IF EXISTS ks_baseball.player_batting_by_year;
 DROP TABLE IF EXISTS ks_baseball.player_batting_post_season_by_year;
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS ks_baseball.player_batting_by_year (
     slg decimal,
     ops decimal,
     ops_plus decimal,
-    PRIMARY KEY (playerid, yearid)) WITH CLUSTERING ORDER BY (yearid ASC);
+    PRIMARY KEY (playerid, yearid)) WITH CLUSTERING ORDER BY (yearid ASC) AND VERTEX LABEL player_yearly_hitting_vtx;
     
  CREATE TABLE IF NOT EXISTS ks_baseball.player_batting_post_season_by_year (
     playerid text,
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS ks_baseball.player_batting_by_year (
     slg decimal,
     ops decimal,
     ops_plus decimal,
-    PRIMARY KEY (playerid, yearid, round)) WITH CLUSTERING ORDER BY (yearid ASC, round ASC);
+    PRIMARY KEY (playerid, yearid, round)) WITH CLUSTERING ORDER BY (yearid ASC, round ASC) AND VERTEX LABEL player_post_season_hitting_vtx;
 
 CREATE TABLE IF NOT EXISTS ks_baseball.player_info (
     playerid text,
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS ks_baseball.player_info (
     finalgame date,
     retroid text,
     bbrefid text,
-    PRIMARY KEY (playerid));
+    PRIMARY KEY (playerid)) WITH VERTEX LABEL player_info_vtx;
     
 CREATE TABLE IF NOT EXISTS ks_baseball.teams (
     yearid text,
@@ -143,7 +143,7 @@ CREATE TABLE IF NOT EXISTS ks_baseball.teams (
     teamidbr text,
     teamIDlahman45 text,
     teamIDretro text,
-    PRIMARY KEY (teamid, yearid));
+    PRIMARY KEY (teamid, yearid)) WITH VERTEX LABEL team_yearly_info_vtx;
     
 CREATE TABLE IF NOT EXISTS ks_baseball.parks (
     parkid text,
@@ -151,7 +151,7 @@ CREATE TABLE IF NOT EXISTS ks_baseball.parks (
     city text,
     state text,
     country text,
-    PRIMARY KEY (parkid));
+    PRIMARY KEY (parkid)) WITH VERTEX LABEL park_info_vtx;
     
 CREATE TABLE IF NOT EXISTS ks_baseball.player_pitching_by_year (
     playerid text,
@@ -184,4 +184,4 @@ CREATE TABLE IF NOT EXISTS ks_baseball.player_pitching_by_year (
     sh int,
     sf int,
     gidp int,
-PRIMARY KEY (playerid, yearid));
+PRIMARY KEY (playerid, yearid)) WITH VERTEX LABEL player_yearly_pitching_vtx;
