@@ -17,6 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <dse.version>6.7.6</dse.version>
+    <postgresql.version>42.1.4</postgresql.version>
   </properties>
 
   <dependencies>
@@ -32,7 +33,12 @@
       <version>${dse.version}</version>
       <scope>provided</scope>
     </dependency>
-  </dependencies>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>${postgresql.version}</version>
+      </dependency>
+  	</dependencies>
   
   <repositories>
     <repository>
